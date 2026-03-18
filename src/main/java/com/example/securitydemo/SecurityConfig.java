@@ -40,7 +40,7 @@ public class SecurityConfig {
         http.httpBasic(withDefaults());//but this contain sessionID and headers only no csrf token
         return http.build();
     }//if request is containing cookie means it is stateful
-    git remote add origin https://github.com/SauravBiswajit07/new-learning.git
+
     @Bean
     public UserDetailsService userDetailsService() {//UserDetailsService needed to load data,
         // It is a core interface used to load user information during authentication.
